@@ -135,6 +135,7 @@
    pkgs.zenith-nvidia
 
    # Browser
+   pkgs.opera
    pkgs.microsoft-edge
 
    # Programming language
@@ -142,25 +143,27 @@
 
    # Dev Tool
    pkgs.graalvm-ce
-   pkgs.graalvmCEPackages.graalpy
-   pkgs.graalvmCEPackages.graaljs
-   pkgs.graalvmCEPackages.graalnodejs
-   pkgs.graalvmCEPackages.graalvm-ce-musl
-   pkgs.nodejs_21
+   pkgs.nodejs_20
    
-
+   # VM
+   pkgs.vmware-workstation
+   
    pkgs.jetbrains-toolbox
    pkgs.vscode
+   pkgs.sublime
 
    # Version control
    pkgs.git
 
    # Communication
+   pkgs.keet
+   pkgs.zoom
    pkgs.discord
    pkgs.telegram-desktop
 
    # etc
-   pkgs.hyprland
+   #pkgs.hyprland
+   pkgs.obs-studio
 
    pkgs.wmctrl
 
